@@ -40,7 +40,7 @@ export default function Home() {
     }
   };
 
-  // Reads the ETH balance of the DAO contract and sets the `treasuryBalance` state variable
+  // this Reads the ETH balance of the DAO contract and sets the `treasuryBalance` state variable
   const getDAOTreasuryBalance = async () => {
     try {
       const provider = await getProviderOrSigner();
